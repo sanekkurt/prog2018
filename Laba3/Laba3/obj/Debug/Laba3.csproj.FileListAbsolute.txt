@@ -1,0 +1,7 @@
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Laba3\Laba3\bin\Debug\Laba3.exe.config
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Laba3\Laba3\bin\Debug\Laba3.exe
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Laba3\Laba3\bin\Debug\Laba3.pdb
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Laba3\Laba3\obj\Debug\Laba3.csprojResolveAssemblyReference.cache
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Laba3\Laba3\obj\Debug\Laba3.csproj.CoreCompileInputs.cache
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Laba3\Laba3\obj\Debug\Laba3.exe
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Laba3\Laba3\obj\Debug\Laba3.pdb
