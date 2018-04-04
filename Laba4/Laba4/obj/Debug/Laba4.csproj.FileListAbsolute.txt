@@ -1,0 +1,7 @@
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\Laba4\Laba4\obj\Debug\Laba4.csprojResolveAssemblyReference.cache
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\Laba4\Laba4\obj\Debug\Laba4.csproj.CoreCompileInputs.cache
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\Laba4\Laba4\bin\Debug\Laba4.exe.config
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\Laba4\Laba4\bin\Debug\Laba4.exe
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\Laba4\Laba4\bin\Debug\Laba4.pdb
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\Laba4\Laba4\obj\Debug\Laba4.exe
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\Laba4\Laba4\obj\Debug\Laba4.pdb
