@@ -37,13 +37,17 @@ namespace PizzaOrder
     public class PizzaRequirements
     {
         /// <summary>
+        /// Количество пиццы
+        /// </summary>
+        public int number;
+        /// <summary>
         /// Наименование вида пиццы
         /// </summary>
         public NamePizza NamePizza { get; set; }
         /// <summary>
         /// Дополнительно к пицце
         /// </summary>
-        public List<Addition> additions { get; set; }
+        public Addition additions { get; set; }
     }
 
     public class Addition
@@ -55,6 +59,7 @@ namespace PizzaOrder
         /// <summary>
         /// Питье
         /// </summary>
+        public bool DrinkCheck { get; set; }
         public Drink Drink { get; set; }
     }
     /// <summary>
@@ -86,5 +91,10 @@ namespace PizzaOrder
     public enum Currency
     {
         Rubles
+    }
+    public class Program
+    {
+        static void Main()
+        { }
     }
 }
