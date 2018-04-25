@@ -39,11 +39,11 @@ namespace PizzaOrder
         /// <summary>
         /// Количество пиццы
         /// </summary>
-        public int number;
+        public List<int> numberPizza;
         /// <summary>
         /// Наименование вида пиццы
         /// </summary>
-        public NamePizza NamePizza { get; set; }
+        public List<NamePizza> NamePizza { get; set; }
         /// <summary>
         /// Дополнительно к пицце
         /// </summary>
@@ -55,17 +55,36 @@ namespace PizzaOrder
         /// <summary>
         /// Соус 
         /// </summary>
-        public bool Sauce { get; set; }
+        public bool SauceCheck { get; set; }
+        /// <summary>
+        /// Количество соуса
+        /// </summary>
+        public List<int> numberSauce;
+        public List<NameSauce> Sauce { get; set; }
         /// <summary>
         /// Питье
         /// </summary>
         public bool DrinkCheck { get; set; }
-        public Drink Drink { get; set; }
+        /// <summary>
+        /// Количество напитка
+        /// </summary>
+        public List<int> numberDrink;
+        public List<NameDrink> Drink { get; set; }
+    }
+    /// <summary>
+    /// Названия соусов
+    /// </summary>
+    public enum NameSauce
+    {
+        Italyanskij,
+        Tomatnyj,
+        Chesnochnyj,
+        Slivochnyj
     }
     /// <summary>
     /// Названия напитков
     /// </summary>
-    public enum Drink
+    public enum NameDrink
     {
         CocaCola,
         Pepsi,
