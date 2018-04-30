@@ -34,7 +34,10 @@ namespace WindowsForm
             comboBox1.DataSource = Enum.GetValues(typeof(NamePizza));
             comboBox2.DataSource = Enum.GetValues(typeof(NameDrink));
             comboBox3.DataSource = Enum.GetValues(typeof(NameSauce));
-            
+            comboBox4.DataSource = Enum.GetValues(typeof(Currency));
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView2.AllowUserToAddRows = false;
+            dataGridView3.AllowUserToAddRows = false;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -69,6 +72,7 @@ namespace WindowsForm
             dateTimePicker1.Value = dto.dateTime;
             textBox1.Text = dto.FullNameCustomer;
             textBox2.Text = dto.Address;
+            textBox3.Text = dto.Price.ToString();
             tempNumberPizza = dto.Pizza.numberPizza;
             namePizzas = dto.Pizza.NamePizza;
             tempNumberDrinks = dto.Pizza.additions.numberDrink;
@@ -77,7 +81,8 @@ namespace WindowsForm
             nameSauces = dto.Pizza.additions.Sauce;
             checkBox1.Checked = dto.Pizza.additions.DrinkCheck;
             checkBox2.Checked = dto.Pizza.additions.SauceCheck;
-            //comboBox2.SelectedItem = dto.Pizza.additions.Drink;
+            comboBox4.SelectedItem = dto.Currency;
+            
             for(int i =0; i < tempNumberPizza.Count; i++)
             {
                 int rowNumber = dataGridView1.Rows.Add();
@@ -104,7 +109,9 @@ namespace WindowsForm
                 dateTime = dateTimePicker1.Value,
                 FullNameCustomer = textBox1.Text,
                 Address = textBox2.Text,
-                Pizza=PizzaRequirements()
+                Price = double.Parse(textBox3.Text),
+                Pizza=PizzaRequirements(),
+                Currency = (PizzaOrder.Currency)comboBox4.SelectedValue
             };
         }
         PizzaRequirements PizzaRequirements()
@@ -170,5 +177,56 @@ namespace WindowsForm
             tempNumberSauces.Add((int)numericUpDown3.Value);
             nameSauces.Add((PizzaOrder.NameSauce)comboBox3.SelectedValue);
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        
+
+        private void textBox3_KeyPress_1(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            comboBox1.SelectedIndex = 0;
+            comboBox2.SelectedIndex = 0;
+            comboBox3.SelectedIndex = 0;
+            comboBox4.SelectedIndex = 0;
+            numericUpDown1.Value = 1;
+            numericUpDown2.Value = 1;
+            numericUpDown3.Value = 1;
+            while (dataGridView1.Rows.Count != 0)
+            {
+                dataGridView1.Rows.Remove(dataGridView1.Rows[dataGridView1.Rows.Count - 1]);
+            }
+
+            if (checkBox1.Checked)
+            {
+                while (dataGridView2.Rows.Count != 0)
+                {
+                    dataGridView2.Rows.Remove(dataGridView2.Rows[dataGridView2.Rows.Count - 1]);
+                }
+            }
+            if (checkBox2.Checked)
+            {
+                while (dataGridView3.Rows.Count != 0)
+                {
+                    dataGridView3.Rows.Remove(dataGridView3.Rows[dataGridView3.Rows.Count - 1]);
+                }
+            }
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+        }
     }
+    
 }

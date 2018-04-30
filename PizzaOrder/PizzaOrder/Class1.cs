@@ -109,7 +109,9 @@ namespace PizzaOrder
     /// </summary>
     public enum Currency
     {
-        Rubles
+        RUB,
+        USR,
+        EUR
     }
     public class Program
     {
