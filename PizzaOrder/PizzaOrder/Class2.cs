@@ -21,5 +21,9 @@ namespace PizzaOrder
                 return (Order)Xs.Deserialize(fileStream);
             }
         }
+        public static Order LoadFromStream(Stream file)
+        {
+            return (Order)Xs.Deserialize(file);
+        }
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaOrder", "PizzaOrder\Pi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForm", "WindowsForm\WindowsForm.csproj", "{7597C7FC-7B4A-4670-A0DD-96A457666D31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaOrder.Web", "WebApplication1\PizzaOrder.Web.csproj", "{21425AC9-DF94-4A13-9DDD-79FE1DDACFE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7597C7FC-7B4A-4670-A0DD-96A457666D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7597C7FC-7B4A-4670-A0DD-96A457666D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7597C7FC-7B4A-4670-A0DD-96A457666D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21425AC9-DF94-4A13-9DDD-79FE1DDACFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21425AC9-DF94-4A13-9DDD-79FE1DDACFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21425AC9-DF94-4A13-9DDD-79FE1DDACFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21425AC9-DF94-4A13-9DDD-79FE1DDACFE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
