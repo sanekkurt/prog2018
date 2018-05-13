@@ -1,0 +1,10 @@
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrderLicenceGenerator\bin\Debug\PizzaOrderLicenceGenerator.exe.config
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrderLicenceGenerator\bin\Debug\PizzaOrderLicenceGenerator.exe
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrderLicenceGenerator\bin\Debug\PizzaOrderLicenceGenerator.pdb
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrderLicenceGenerator\obj\Debug\PizzaOrderLicenceGenerator.csprojResolveAssemblyReference.cache
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrderLicenceGenerator\obj\Debug\PizzaOrderLicenceGenerator.csproj.CoreCompileInputs.cache
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrderLicenceGenerator\obj\Debug\PizzaOrderLicenceGenerator.exe
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrderLicenceGenerator\obj\Debug\PizzaOrderLicenceGenerator.pdb
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrderLicenceGenerator\bin\Debug\PizzaOrder.dll
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrderLicenceGenerator\bin\Debug\PizzaOrder.pdb
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrderLicenceGenerator\obj\Debug\PizzaOrderLicenceGenerator.csproj.CopyComplete

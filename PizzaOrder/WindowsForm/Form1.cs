@@ -227,6 +227,21 @@ namespace WindowsForm
             checkBox1.Checked = false;
             checkBox2.Checked = false;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            var lv = new LicenceValidator();
+            if (!lv.HasLicense)
+            {
+                MessageBox.Show("Лицензия не найдена. Приобретите ее у разработчика.");
+                Application.Exit();
+            }
+            if (!lv.IsValid)
+            {
+                MessageBox.Show("Срок действия лицензии окончен. Приобретите ее у разработчика.");
+                Application.Exit();
+            }
+        }
     }
     
 }
