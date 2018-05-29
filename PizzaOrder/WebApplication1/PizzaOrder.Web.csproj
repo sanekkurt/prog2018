@@ -269,9 +269,9 @@
     <Content Include="Views\Upload\Print.cshtml" />
     <Content Include="Views\DbOrder\Index.cshtml" />
     <Content Include="Views\DbOrder\Edit.cshtml" />
-    <Content Include="Views\DbOrder\Details.cshtml" />
     <Content Include="Views\DbOrder\Create.cshtml" />
     <Content Include="Views\DbOrder\Delete.cshtml" />
+    <Content Include="Views\DbOrder\NameAndNumberPizza.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

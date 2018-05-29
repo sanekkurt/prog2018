@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Collections.ObjectModel;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
@@ -18,19 +19,8 @@ namespace WebApplication1.Controllers
         {
             return View(db.Orders.ToList());
         }
-        public ActionResult Details(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            DbOrder dbOrder = db.Orders.Find(id);
-            if (dbOrder == null)
-            {
-                return HttpNotFound();
-            }
-            return View(dbOrder);
-        }
+        
+        
         public ActionResult Create()
         {
             return View();
