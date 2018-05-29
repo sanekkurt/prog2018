@@ -10,3 +10,9 @@ E:\Александр\Документы\Cloud Mail.ru\Информатика\4 
 E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csproj.CoreCompileInputs.cache
 E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.dll
 E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.pdb
+E:\Александр\Рабочий стол\PizzaOrder\PizzaOrder\bin\Debug\PizzaOrder.dll
+E:\Александр\Рабочий стол\PizzaOrder\PizzaOrder\bin\Debug\PizzaOrder.pdb
+E:\Александр\Рабочий стол\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csprojResolveAssemblyReference.cache
+E:\Александр\Рабочий стол\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csproj.CoreCompileInputs.cache
+E:\Александр\Рабочий стол\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.dll
+E:\Александр\Рабочий стол\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.pdb

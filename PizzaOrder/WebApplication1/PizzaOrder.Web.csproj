@@ -190,15 +190,16 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DbOrderController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\UploadController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805061218326_1.cs" />
-    <Compile Include="Migrations\201805061218326_1.Designer.cs">
-      <DependentUpon>201805061218326_1.cs</DependentUpon>
+    <Compile Include="Migrations\201805281432123_1.cs" />
+    <Compile Include="Migrations\201805281432123_1.Designer.cs">
+      <DependentUpon>201805281432123_1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -266,6 +267,11 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Upload\Index.cshtml" />
     <Content Include="Views\Upload\Print.cshtml" />
+    <Content Include="Views\DbOrder\Index.cshtml" />
+    <Content Include="Views\DbOrder\Edit.cshtml" />
+    <Content Include="Views\DbOrder\Details.cshtml" />
+    <Content Include="Views\DbOrder\Create.cshtml" />
+    <Content Include="Views\DbOrder\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -290,8 +296,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805061218326_1.resx">
-      <DependentUpon>201805061218326_1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805281432123_1.resx">
+      <DependentUpon>201805281432123_1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

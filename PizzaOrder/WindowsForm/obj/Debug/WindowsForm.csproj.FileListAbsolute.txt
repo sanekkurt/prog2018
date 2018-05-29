@@ -11,3 +11,16 @@ E:\Александр\Документы\Cloud Mail.ru\Информатика\4 
 E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\WindowsForm\obj\Debug\WindowsForm.csproj.CopyComplete
 E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\WindowsForm\obj\Debug\WindowsForm.Form1.resources
 E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\WindowsForm\bin\Debug\PizzaOrder.dll
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\bin\Debug\WindowsForm.exe.config
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\bin\Debug\WindowsForm.exe
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\bin\Debug\WindowsForm.pdb
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\bin\Debug\PizzaOrder.dll
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\bin\Debug\PizzaOrder.pdb
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\obj\Debug\WindowsForm.csprojResolveAssemblyReference.cache
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\obj\Debug\WindowsForm.Form1.resources
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\obj\Debug\WindowsForm.Properties.Resources.resources
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\obj\Debug\WindowsForm.csproj.GenerateResource.cache
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\obj\Debug\WindowsForm.csproj.CoreCompileInputs.cache
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\obj\Debug\WindowsForm.csproj.CopyComplete
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\obj\Debug\WindowsForm.exe
+E:\Александр\Рабочий стол\PizzaOrder\WindowsForm\obj\Debug\WindowsForm.pdb

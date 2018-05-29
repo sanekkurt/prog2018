@@ -10,6 +10,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using WebApplication1.Migrations;
 
+
 namespace WebApplication1.Models
 {
     // В профиль пользователя можно добавить дополнительные данные, если указать больше свойств для класса ApplicationUser. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=317594.
@@ -29,6 +30,7 @@ namespace WebApplication1.Models
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<ApplicationDbContext>());
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, Configuration>());
         }
 
@@ -37,10 +39,15 @@ namespace WebApplication1.Models
             return new ApplicationDbContext();
         }
         public DbSet<DbOrder> Orders { get; set; }
-        public DbSet<DbPizzaRequirements> DbPizzaRequirement { get; set; }
-        public DbSet<DbAddition> Addition { get; set; }
+        public DbSet<DbPizzaRequirement> DbPizzaRequirements { get; set; }
+        public DbSet<DbNumberPizza> DbNumberPizzas { get; set; }
+        public DbSet<DbNamePizza> DbNamePizzas { get; set; }
+        public DbSet<DbAddition> Additions { get; set; }
+        public DbSet<DbNumberSauce> DbNumberSauces { get; set; }
+        public DbSet<DbNameSauce> DbNameSauces { get; set; }
+        public DbSet<DbNumberDrink> DbNumberDrinks { get; set; }
+        public DbSet<DbNameDrink> DbNameDrinks { get; set; }
     }
-
 
 
 
@@ -66,7 +73,7 @@ namespace WebApplication1.Models
         /// <summary>
         /// Требования к пицце
         /// </summary>
-        public DbPizzaRequirements Pizza { get; set; }
+        public DbPizzaRequirement Pizza { get; set; }
         /// <summary>
         /// Адрес
         /// </summary>
@@ -78,23 +85,38 @@ namespace WebApplication1.Models
         public Currency Currency { get; set; }
     }
 
-    public class DbPizzaRequirements
+    public class DbPizzaRequirement
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         /// <summary>
         /// Количество пиццы
         /// </summary>
-        public List<int> numberPizza;
+        public virtual Collection<DbNumberPizza> numberPizzaKernel { get; set; }
         /// <summary>
         /// Наименование вида пиццы
         /// </summary>
-        public List<NamePizza> NamePizza { get; set; }
+        public virtual Collection<DbNamePizza> NamePizzaKernel { get; set; }
         /// <summary>
         /// Дополнительно к пицце
         /// </summary>
         public DbAddition Additions { get; set; }
     }
+
+    public class DbNumberPizza
+    {
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        public int numberPizza { get; set; }
+    }
+
+    public class DbNamePizza
+    {
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        public NamePizza NamePizza { get; set; }
+    }
+
 
     public class DbAddition
     {
@@ -103,21 +125,49 @@ namespace WebApplication1.Models
         /// <summary>
         /// Соус 
         /// </summary>
-        public bool SauceCheck { get; set; }
+        //public bool SauceCheck { get; set; }
         /// <summary>
         /// Количество соуса
         /// </summary>
-        public List<int> numberSauce;
-        public List<NameSauce> Sauce { get; set; }
+        public virtual Collection<DbNumberSauce> numberSauceKernel { get; set; }
+        public virtual Collection<DbNameSauce> SauceKernel { get; set; }
         /// <summary>
         /// Питье
         /// </summary>
-        public bool DrinkCheck { get; set; }
+        //public bool DrinkCheck { get; set; }
         /// <summary>
         /// Количество напитка
         /// </summary>
-        public List<int> numberDrink;
-        public List<NameDrink> Drink { get; set; }
+        public virtual Collection<DbNumberDrink> numberDrinkKernel { get; set; }
+        public virtual Collection<DbNameDrink> DrinkKernel { get; set; }
+    }
+
+    public class DbNumberSauce
+    {
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        public int numberSauce { get; set; }
+    }
+
+    public class DbNameSauce
+    {
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        public NameSauce NameSauce { get; set; }
+    }
+
+    public class DbNumberDrink
+    {
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        public int numberDrink { get; set; }
+    }
+
+    public class DbNameDrink
+    {
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        public NameDrink NameDrink { get; set; }
     }
     /// <summary>
     /// Названия соусов

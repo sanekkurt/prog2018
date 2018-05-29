@@ -1,0 +1,58 @@
+﻿@model WebApplication1.Models.DbOrder
+
+
+@{
+    ViewBag.Title = "Информация";
+}
+<h2>Информация</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.dateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dateTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FullNameCustomer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullNameCustomer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Currency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Currency)
+        </dd>
+    </dl>
+    <div>
+
+        <p>
+            @Html.ActionLink("Редактировать", "Edit", new { id = Model.Id }) |
+            @Html.ActionLink("Назад к заказам", "Index")
+        </p>
