@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <dateTime>2018-06-02T11:40:09.3280232+05:00</dateTime>
+  <FullNameCustomer>Иванов Иван Иванович</FullNameCustomer>
+  <Pizza>
+    <numberPizza>
+      <int>1</int>
+      <int>4</int>
+      <int>4</int>
+    </numberPizza>
+    <NamePizza>
+      <NamePizza>Bavarskaja</NamePizza>
+      <NamePizza>Syrnaja</NamePizza>
+      <NamePizza>Freeday</NamePizza>
+    </NamePizza>
+    <additions>
+      <numberSauce>
+        <int>5</int>
+        <int>9</int>
+      </numberSauce>
+      <numberDrink>
+        <int>2</int>
+      </numberDrink>
+      <SauceCheck>true</SauceCheck>
+      <Sauce>
+        <NameSauce>Chesnochnyj</NameSauce>
+        <NameSauce>Italyanskij</NameSauce>
+      </Sauce>
+      <DrinkCheck>true</DrinkCheck>
+      <Drink>
+        <NameDrink>Mirinda</NameDrink>
+      </Drink>
+    </additions>
+  </Pizza>
+  <Address>Екатеринбург</Address>
+  <Price>599</Price>
+  <Currency>RUB</Currency>
+</Order>

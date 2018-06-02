@@ -1,0 +1,63 @@
+﻿@model WebApplication1.Models.DbOrder
+
+@{
+    ViewBag.Title = "Delete";
+}
+<h2>Удаление</h2>
+
+<h3>Вы уверены, что хотите удалить этот заказ?</h3>
+
+<div>
+    <h4>DbPurchaseTickets</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.dateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dateTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FullNameCustomer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullNameCustomer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Currency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Currency)
+        </dd>
+    </dl>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Назад к заказам", "Index")
+        </div>
+    }
+</div>

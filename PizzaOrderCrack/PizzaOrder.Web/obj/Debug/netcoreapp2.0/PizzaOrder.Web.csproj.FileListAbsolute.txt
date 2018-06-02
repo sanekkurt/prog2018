@@ -1,0 +1,11 @@
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\bin\Debug\netcoreapp2.0\PizzaOrder.Web.deps.json
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\bin\Debug\netcoreapp2.0\PizzaOrder.Web.runtimeconfig.json
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\bin\Debug\netcoreapp2.0\PizzaOrder.Web.runtimeconfig.dev.json
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\bin\Debug\netcoreapp2.0\PizzaOrder.Web.dll
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\bin\Debug\netcoreapp2.0\PizzaOrder.Web.pdb
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\obj\Debug\netcoreapp2.0\PizzaOrder.Web.csprojResolveAssemblyReference.cache
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\obj\Debug\netcoreapp2.0\PizzaOrder.Web.csproj.CoreCompileInputs.cache
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\obj\Debug\netcoreapp2.0\PizzaOrder.Web.AssemblyInfoInputs.cache
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\obj\Debug\netcoreapp2.0\PizzaOrder.Web.AssemblyInfo.cs
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\obj\Debug\netcoreapp2.0\PizzaOrder.Web.dll
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\PizzaOrder\PizzaOrder.Web\obj\Debug\netcoreapp2.0\PizzaOrder.Web.pdb

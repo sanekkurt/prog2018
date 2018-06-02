@@ -1,0 +1,117 @@
+﻿@model PizzaOrder.Order
+
+@{
+    ViewBag.Title = "Print";
+}
+
+<h2>Открытый заказ</h2>
+
+<p>Цена: @Model.Price рублей</p>
+<p>ФИО заказчика: @Model.FullNameCustomer</p>
+<p>Адрес доставки: @Model.Address</p>
+
+
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th>
+            Наименование пицц
+        </th>
+        <th>
+            Количество пицц
+        </th>
+        <th>
+            Наименование соусов
+        </th>
+        <th>
+            Количество соусов
+        </th>
+        <th>
+            Наименование напитков
+        </th>
+        <th>
+            Количество напитков
+        </th>
+    </tr>
+    <tbody>
+
+      
+        <div></div>
+
+        <tr>
+
+            <td style="border:1px solid black">
+
+                <fieldset>
+                    <b>
+                       @foreach (var wp in Model.Pizza.NamePizza)
+                       {
+                        <div></div>@wp
+                       }
+                       
+                    </b>
+                </fieldset>
+            </td>
+            <td style="border:1px solid black">
+                <fieldset>
+                    <b>
+                        @foreach (var wp in Model.Pizza.numberPizza)
+                        {
+                        <div></div>@wp
+                        }
+                    </b>
+                </fieldset>
+            </td>
+            <td style="border:1px solid black">
+                <fieldset>
+                    <b>
+                        @foreach (var wp in Model.Pizza.additions.Sauce)
+                        {
+                        <div></div>@wp
+                        }
+                    </b>
+                </fieldset>
+            </td>
+            <td style="border:1px solid black">
+                <fieldset>
+                    <b>
+                        @foreach (var wp in Model.Pizza.additions.numberSauce)
+                        {
+                        <div></div>@wp
+                        }
+                    </b>
+                </fieldset>
+            </td>
+            <td style="border:1px solid black">
+                <fieldset>
+                    <b>
+                        @foreach (var wp in Model.Pizza.additions.Drink)
+                        {
+                        <div></div>@wp
+                        }
+                    </b>
+                </fieldset>
+            </td>
+            <td style="border:1px solid black">
+                <fieldset>
+                    <b>
+                        @foreach (var wp in Model.Pizza.additions.numberDrink)
+                        {
+                        <div></div>@wp
+                        }
+                    </b>
+                </fieldset>
+            </td>
+        </tr>
+
+        
+
+
+
+
+
+
+
+
+
+    </tbody>
+</table>
