@@ -427,3 +427,7 @@ E:\Александр\Рабочий стол\PizzaOrder\WebApplication1\obj\Deb
 E:\Александр\Рабочий стол\PizzaOrder\WebApplication1\obj\Debug\WebApplication1.pdb
 E:\Александр\Рабочий стол\PizzaOrder\WebApplication1\obj\Debug\WebApplication1.Migrations._1.resources
 E:\Александр\Рабочий стол\PizzaOrder\WebApplication1\obj\Debug\PizzaOrder.Web.csproj.GenerateResource.cache
+E:\Александр\Рабочий стол\PizzaOrder\WebApplication1\bin\EPPlus.dll
+E:\Александр\Рабочий стол\PizzaOrder\WebApplication1\bin\EPPlus.xml
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\PizzaOrder\WebApplication1\bin\EPPlus.dll
+E:\Александр\Документы\Cloud Mail.ru\Информатика\4 семестр\Git\prog2018\PizzaOrder\WebApplication1\bin\EPPlus.xml
